@@ -1,0 +1,138 @@
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    //background-color: #78fee0;
+    background-color: #fce2db;
+}
+
+#connector {
+    position: absolute;
+    top: 200px;
+    //top: 17%;
+    left: 350px;
+    //left: 15%;
+    width: 1530px;
+    //width: 71.5%;
+    height: 800px;
+    //height: 68%;
+    background-color: transparent;
+    border: 10px solid #7a57d1;
+    border-radius: 50%;
+}
+
+#title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 75px;
+    //font-size: 468.75%;
+    color: #446491;
+}
+
+#main-person {
+    background-color: #fef4a9;
+    border: 5px solid #fef4a9;
+    border-radius: 50px;
+}
+
+#main-person-pic {
+    width: 65%;
+    //width: 80%;
+    //height: 95%;
+    height: 210px;
+    border-radius: 25px;
+}
+
+#main-person-name {
+    font-family: 'Roboto', sans-serif;
+    color: #071a52;
+    font-weight: bold;
+}
+
+
+.generator-buttons {
+    font-family: 'Open Sans', sans-serif;
+    //width: 48.75%;
+}
+
+.generator-displays {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border: 1px solid #c5c5c5;
+}
+
+
+#main-answer {
+    height: 50px;
+    width: 70%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    border: 1px solid #446491;
+    border-radius: 5px;
+}
+
+
+.other-people {
+    height:340px;
+    background-color: #4bc2c5;
+    border: 5px solid #4bc2c5;
+    border-radius: 25px;
+}
+
+.other-people-pic {
+    width: 65%;
+    //height: 60%;
+    height: 210px;
+    border-radius: 25px;
+}
+
+.other-people-details h5 {
+    font-family: 'Roboto', sans-serif;
+    color: #071a52;
+    font-weight: bold;
+}
+
+.other-people-details p {
+    font-family: 'Raleway', sans-serif;
+    color: #7a57d1;
+    font-size: 1.25em;
+}
+
+.other-people-answers {
+    height: 60px;
+    width: 300px;
+    font-family: 'Kalam', cursive;
+    font-size: 1.25em;
+    color: #e2f3f5;
+    text-align: center;
+    background-color: #071a52;
+    border-radius: 25px;
+}
+
+#intro {
+    border: 1px dashed black;
+    border-radius: 10px;
+    background-color: #facf5a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding: 5px;
+}
+
+#intro ol {
+    font-weight: bold;
+}
+
+#difficulty {
+    border: 1px dashed black;
+    border-radius: 10px;
+    width: 55%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#commentator {
+    border: 1px dashed black;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}

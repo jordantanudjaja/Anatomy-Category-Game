@@ -1,0 +1,282 @@
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color: #78fee0;
+}
+
+#container {
+    position: relative;
+    margin: auto;
+    width: 1800px;
+    //width: auto;
+    height: 1100px;
+    //height: auto;
+    border: 5px solid #78fee0;
+    //background-color: #3b9a9c;
+}
+
+#connector {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    //width: 1530px;
+    width: 85%;
+    //height: 748px;
+    height: 68%;
+    background-color: transparent;
+    border: 10px solid #7a57d1;
+    border-radius: 50%;
+}
+
+#title {
+    position: absolute;
+    top: 4.55%;
+    left: 1%;
+    width: 5%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 75px;
+    //font-size: 468.75%;
+    color: #446491;
+}
+
+.main-person {
+    position: absolute;
+    top: 35.23%;
+    left: 41.11%;
+    display: flex;
+    //width: 320px;
+    width: 17.78%;
+    //height: 325px;
+    height: 29.55%;
+    background-color: #fef4a9;
+    justify-content: center;
+    border: 5px solid #fef4a9;
+    border-radius: 50px;
+}
+
+#main-person-picture {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    height: 65%;
+    justify-content: center;
+}
+
+#person-center {
+    display: flex;
+    margin: auto;
+    width: 65%;
+    height: 95%;
+    border-radius: 25px;
+}
+
+#main-person-details {
+    position: absolute;
+    display:flex;
+    margin: auto;
+    margin-top: 200px;
+    width: 95%;
+    justify-content: center;
+    text-align: center;
+}
+
+#main-person-name {
+    font-family: 'Roboto', sans-serif;
+    color: #071a52;
+    font-weight: bold;
+}
+
+.generator-buttons {
+    font-family: 'Open Sans', sans-serif;
+    width: 135px;
+    //width: 49.79%;
+}
+
+.generator-displays {
+    //height: 17px;
+    height: 20%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+}
+
+#main-answer {
+    margin-top: 2.5px;
+    //height: 30px;
+    height: 35.29%;
+    //width: 200px;
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    //font-size: 15px;
+    font-size: 100%;
+    border: 1px solid #446491;
+    border-radius: 5px;
+}
+
+.other-people {
+    position: absolute;
+    display: flex;
+    //width: 300px;
+    width: 16.67%;
+    //height: 310px;
+    height: 28.18%;
+    background-color: #4bc2c5;
+    justify-content: center;
+    border: 5px solid #4bc2c5;
+    border-radius: 25px;
+}
+
+.other-people-photos {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    height: 61.5%;
+    justify-content: center;
+}
+
+.profile-picture {
+    display: flex;
+    margin: auto;
+    width: 65%;
+    height: 95%;
+    border-radius: 25px;
+}
+
+.other-people-details {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    margin-top: 180px;
+    width: 95%;
+    text-align: center;
+    justify-content: center;
+}
+
+.other-people-details p span[name="name"] {
+    font-family: 'Roboto', sans-serif;
+    color: #071a52;
+    font-weight: bold;
+}
+
+.other-people-details p span[name="description"] {
+    font-family: 'Raleway', sans-serif;
+    color: #7a57d1;
+    font-size: 20px;
+    //font-size: 130%;
+}
+
+.other-people-answers {
+    position: absolute;
+    margin-top: 240px;
+    //height: 60px;
+    height: 19.35%;
+    //width: 280px;
+    width: 88%;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+    //font-size: 130%;
+    color: #e2f3f5;
+    text-align: center;
+    //background-color: #3d6cb9 a lighter blue color;
+    background-color: #071a52;
+    border-radius: 25px;
+}
+
+#person-1 {
+    top: 2.5%;
+    left: 20%;
+}
+
+#person-2 {
+    top: 35.91%;
+    left: 4%;
+}
+
+#person-3 {
+    top: 69.32%;
+    left: 20%;
+}
+
+#person-4 {
+    top: 69.32%;
+    left: 41.67%;
+}
+
+#person-5 {
+    top: 69.32%;
+    //left: 63.33%;
+    right: 20%;
+}
+
+#person-6 {
+    top: 35.91%;
+    //left: 79.33%;
+    right: 4%;
+}
+
+#person-7 {
+    top: 2.5%;
+    //left: 63.33%;
+    right: 20%;
+}
+
+#person-8 {
+    top: 2.5%;
+    left: 41.67%;
+}
+
+#intro {
+    position: absolute;
+    top: 32.5%;
+    left: 21.8%;
+    border: 1px dashed black;
+    border-radius: 10px;
+    background-color: #facf5a;
+    width: 18%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    //font-size: 93.75%;
+    padding: 5px;
+}
+
+#intro ol {
+    font-weight: bold;
+}
+
+#difficulty {
+    position: absolute;
+    top: 37%;
+    left: 60%;
+    padding: 5px;
+    border: 1px dashed black;
+    border-radius: 10px;
+    width: 10%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#commentator {
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    padding: 5px;
+    border: 1px dashed black;
+    border-radius: 10px;
+    width: 17.5%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+#right-bottom-emoji {
+  position: absolute;
+  bottom: 0%;
+  left: 83.5%;
+  font-size: 275px;
+}

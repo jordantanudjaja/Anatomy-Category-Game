@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Mindmap anatomy of any 1 particular person">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Jordan Tanudjaja">
+        <title>Mindmap anatomy template</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Open+Sans&family=Raleway:ital,wght@1,600&family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid pt-3" style="width:2150px;">
+            <!--<div id="connector" style="z-index:-1;"></div>-->
+            <div class="row justify-content-center">
+                <div class="col-2 text-center align-self-center">
+                    <span id="title"> Person's Anatomy</span>
+                </div>
+
+                <div class="col-2">
+                    <section id="person-1" class="other-people card text-center">
+                        <img class="other-people-pic card-img-top mx-auto d-block" src="images/dog photo 1.jpeg" alt="">
+                            <div class="other-people-details card-body p-1">
+                                <h5 class="card-title m-0" name="name">Mikey</h5>
+                                <p class="card-text m-0" name="description">Description</p>
+                                <input id="answer-1" class="other-people-answers" type="hidden" name="answer" disabled>
+                            </div>
+                    </section>
+                </div>
+
+                <div class="col-2">
+                    <section id="person-8" class="other-people card text-center">
+                        <img class="other-people-pic card-img-top mx-auto d-block" src="images/dog photo 1.jpeg" alt="">
+                            <div class="other-people-details card-body p-1">
+                                <h5 class="card-title m-0" name="name">Clar</h5>
+                                <p class="card-text m-0" name="description">Description</p>
+                                <input id="answer-8" class="other-people-answers" type="hidden" name="answer" disabled>
+                            </div>
+                    </section>
+                </div>
+
+                <div class="col-2">
+                    <section id="person-7" class="other-people card text-center">
+                        <img class="other-people-pic card-img-top mx-auto d-block" src="images/dog photo 1.jpeg" alt="">
+                            <div class="other-people-details card-body p-1">
+                                <h5 class="card-title m-0" name="name">Audrey M</h5>
+                                <p class="card-text m-0" name="description">Description</p>
+                                <input id="answer-7" class="other-people-answers" type="hidden" name="answer" disabled>
+                            </div>
+                    </section>
+                </div>
+
+                <div class="col-2">
+                    <!-- Empty column to align the other columns in the bootstrap grid system -->
+                </div>
+            </div>
+
+            <div class="row mt-2 justify-content-center align-items-center">
+                <div class="col-2">
+                    <section id="person-2" class="other-people card text-center">
+                        <img class="other-people-pic card-img-top mx-auto d-block" src="images/dog photo 1.jpeg" alt="">
+                            <div class="other-people-details card-body p-1">
+                                <h5 class="card-title m-0" name="name">Audrey W</h5>
+                                <p class="card-text m-0" name="description">Description</p>
+                                <input id="answer-2" class="other-people-answers" type="hidden" name="answer" disabled>
+                            </div>
+                    </section>
+                </div>
+
+                <div class="col-2">
+                    <div id="intro">
+                        <p>
+                            Welcome to your very own mindmap category game, a platform where you can play the category game with your
+                            friendbots surrounding you.
+                            <span style="text-decoration:underline;font-weight:bold;">You're a winner as long as you're not last!</span>
+                        </p>
+                        <ol type="1">
+                            <li>Choose a difficulty level on the right</li>
+                            <li>Click on the 'Generate Category' button to generate a random category</li>
+                            <li>Once you are satisfied with your category, click on the 'Generate Letter' button to
+                                generate a random letter</li>
+                            <li>Think fast and enter your answer in the answer box</li>
+                        </ol>
+                        <p style="font-weight:bold;font-style:italic;">
+                            Take a SHOT everytime you lose! The MOAR SHOTS THE BETTER :).
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <section id="main-person" class="card text-center">
+                        <img id="main-person-pic" class="card-img-top mx-auto d-block" src="images/dog photo 1.jpeg" alt="">
+                            <div id="main-person-details" class="card-body p-1">
+                                <h5 id="main-person-name" class="card-title">Jordan Tanudjaja</h5>
+                                <div class="card-text m-0">
+                                    <div class="input-group input-group-sm">
+                                      <div class="input-group-prepend">
+                                        <button type="button" id="category-generator" class="generator-buttons btn btn-secondary"  name="category-generator">Generate Category</button>
+                                      </div>
+                                        <input type="text" id="category-display" class="generator-displays form-control" name="category-display" disabled>
+                                    </div>
+                                </div>
+                                <div class="card-text w-50 my-1">
+                                    <div class="input-group input-group-sm">
+                                      <div class="input-group-prepend">
+                                        <button type="button" id="letter-generator" class="generator-buttons btn btn-secondary"  name="letter-generator" disabled>Generate Letter</button>
+                                      </div>
+                                        <input type="text" id="letter-display" class="generator-displays form-control" name="letter-display" disabled>
+                                    </div>
+                                </div>
+                                <p class="card-text">
+                                    <span style="font-family:'Open Sans',sans-serif;font-weight:bold;">Answer:</span>
+                                    <input type="text" id="main-answer" name="main-answer" contenteditable="true" spellcheck="true" disabled>
+                                </p>
+                            </div>
+                    </section>
+                </div>
+
+                <div class="col-2 p-0" style="height:420px;">
+                    <form id="difficulty">
+                        <span style="font-size:20px;font-weight:bold;">Difficulty Level</span>
+                        <br>
+                        <input type="radio" name="difficulty-level" value="1" checked="true">Ez Pz</input>
+                        <br>
+                        <input type="radio" name="difficulty-level" value="2">B aja</input>
+                        <br>
+                        <input type="radio" name="difficulty-level" value="3">Halp Me PLS</input>
+                        <br>
+                        <input type="radio" name="difficulty-level" value="4">Fml</input>
+                        <br>
+                        <input type="radio" name="difficulty-level" value="5">I'll just watch TikTok</input>
+                        <br>
+                    </form>
+
+
+                    <div class="row" style="margin-top:40%;">
+                        <div class="col-12">
+                            <p id="commentator" hidden="true">
+                                <!--Comments generated when the user enters an answer -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-2">
+                    <section id="person-6" class="other-people card text-center">
+                        <img class="other-people-pic card-img-top mx-auto d-block" src="images/dog photo 1.jpeg" alt="">
+                            <div class="other-people-details card-body p-1">
+                                <h5 class="card-title m-0" name="name">Joy</h5>
+                                <p class="card-text m-0" name="description">Description</p>
+                                <input id="answer-6" class="other-people-answers" type="hidden" name="answer" disabled>
+                            </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="row my-2 justify-content-center">
+                <div class="col-2">
+                    <!-- Empty column to align the other columns in the bootstrap grid system -->
+                </div>
+                <div class="col-2">
+                    <section id="person-3" class="other-people card text-center">
+                        <img class="other-people-pic card-img-top mx-auto d-block" src="images/dog photo 1.jpeg" alt="">
+                            <div class="other-people-details card-body p-1">
+                                <h5 class="card-title m-0" name="name">Tiu</h5>
+                                <p class="card-text m-0" name="description">Description</p>
+                                <input id="answer-3" class="other-people-answers" type="hidden" name="answer" disabled>
+                            </div>
+                    </section>
+                </div>
+
+                <div class="col-2">
+                    <section id="person-4" class="other-people card text-center">
+                        <img class="other-people-pic card-img-top mx-auto d-block" src="images/dog photo 1.jpeg" alt="">
+                            <div class="other-people-details card-body p-1">
+                                <h5 class="card-title m-0" name="name">Troy</h5>
+                                <p class="card-text m-0" name="description">Description</p>
+                                <input id="answer-4" class="other-people-answers" type="hidden" name="answer" disabled>
+                            </div>
+                    </section>
+                </div>
+
+                <div class="col-2">
+                    <section id="person-5" class="other-people card text-center">
+                        <img class="other-people-pic card-img-top mx-auto d-block" src="images/dog photo 1.jpeg" alt="">
+                            <div class="other-people-details card-body p-1">
+                                <h5 class="card-title m-0" name="name">Feli</h5>
+                                <p class="card-text m-0" name="description">Description</p>
+                                <input id="answer-5" class="other-people-answers" type="hidden" name="answer" disabled>
+                            </div>
+                    </section>
+                </div>
+
+                <div id="right-bottom-emoji" class="col-2" style="font-size:15em;">
+                    🥂
+                </div>
+            </div>
+      </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+</html>

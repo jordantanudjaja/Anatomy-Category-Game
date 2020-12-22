@@ -9,8 +9,8 @@ Potential idea expansion: Add more categories, a spell-checker to see if the wor
 <h2>Mindmap Anatomy Template</h2>
 <h3>Bootstrap</h3>
 <ul>
-  <li><b>images:</b> Contains 1 image: dog photo 1.jpeg. This is a placeholder image that will be replaced by any picture of the main user, as well as include photos of
-  the people representing the 8 bots surrounding the mian person</li>
+  <li><b>images:</b> Folder that contains 1 image: dog photo 1.jpeg. This is a placeholder image that will be replaced by any picture of the main user, as well as include 
+    photos of the people representing the 8 bots surrounding the mian person</li>
   <li><b>template.html:</b> HTML file that outlines the layout of the web page (Using Bootstrap Version 4 as a guide)</li>
   <li><b>style.css:</b> CSS file that styles the web page on top of Bootstrap</li>
   <li><b>script.js:</b> JavaScript File that provides the interactivity of the game based on the keyboard inputs and random generator button clicks</li>
@@ -18,8 +18,8 @@ Potential idea expansion: Add more categories, a spell-checker to see if the wor
 
 <h3>Non-Bootstrap</h3>
 <ul>
-  <li><b>images:</b> Contains 1 image: dog photo 1.jpeg. This is a placeholder image that will be replaced by any picture of the main user, as well as include photos of
-  the people representing the 8 bots surrounding the mian person</li>
+  <li><b>images:</b> Folder that contains 1 image: dog photo 1.jpeg. This is a placeholder image that will be replaced by any picture of the main user, as well as include 
+    photos of the people representing the 8 bots surrounding the mian person</li>
   <li><b>template.html:</b> HTML file that outlines the layout of the web page (Without using Bootstrap)</li>
   <li><b>style.css:</b> CSS file that styles the web page</li>
   <li><b>script.js:</b> JavaScript File that provides the interactivity of the game based on the keyboard inputs and random generator button clicks</li>

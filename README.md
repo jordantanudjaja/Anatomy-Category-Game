@@ -1,6 +1,6 @@
-# Mindmap-Anatomy-Category-Game
-A personal project that aims to combine the ABC category game concept with a mindmap anatomy of any single person, with 8 other bots representing friends/families around that
-main person. This is a web-based game that is written in HTML, CSS, and pure JavaScript. The concept of the game is based on the ABC category game, where a random category
+# Anatomy-Category-Game
+A personal project that aims to combine the Tapple board game concept with a mindmap anatomy of any single person, with 8 other bots representing friends/families around that
+main person. This is a web-based game that is written in HTML, CSS, and pure JavaScript. The concept of the game is based on the Tapple board game, where a random category
 and a random letter is generated, and the user has to type in an example of said category that starts with the letter that was generated before the last bot. There are 5
 difficulty levels in this game, in which the speed of the bot answers increases per difficulty level.
 

@@ -31,7 +31,7 @@ let comments = document.getElementById('commentator');
 let names = document.querySelectorAll('span[name="name"]');
 let outside_responses = document.querySelectorAll('input[name="answer"]');
 
-//Level value denotes the difficulty level chosen, default value is 1 which represents Ez Pz
+//Level value denotes the difficulty level chosen, default value is 1 which represents Easy
 let level_value;
 
 //Initialzing an array of unique numbers to an array with the size of num_of_friends
@@ -448,7 +448,7 @@ button_letter.addEventListener('click', () => {
         case '5':
             time_delay = 300;
             gender_comment = gender_discrepancy('bro', 'sis')
-            empty_comment = `Too slow!! Guess it's time to watch some TikToks ${gender_comment}`;
+            empty_comment = `Too slow!! You'll never be fast enough ${gender_comment}`;
             outside_responses.forEach(response_delay, time_delay);
             empty_main_response(empty_comment, time_delay + 50, main_disabled = false);
             break;
@@ -488,7 +488,7 @@ main_answer.addEventListener('keyup', (e) => {
         let optional_shot;
 
         if (main_answer.value[0].toLowerCase() == letter_display.value.toLowerCase()) {
-            //Responses for the Ez Pz difficulty level
+            //Responses for the Easy difficulty level
             if (level_value == '1') {
                 if (outside_responses[num_of_friends - 1].type == 'hidden') {
                     win = true;
@@ -502,7 +502,7 @@ main_answer.addEventListener('keyup', (e) => {
                     comments.innerHTML = 'Last place, gotta take a shot! Better luck next time :((';
                 }
             }
-            //Responses for the B aja, Halp Me PLS, and Fml difficulty level
+            //Responses for the Medium, Difficult, and Insane difficulty level
             else if (level_value == '2' || level_value == '3' || level_value == '4'){
                 if (!outside_responses[0].value) {
                     win = true;
@@ -542,7 +542,7 @@ main_answer.addEventListener('keyup', (e) => {
                     comments.innerHTML = `YOU GOT LAST PLACE! TAKE A SHOT! ${String.fromCodePoint(0x1F376)}`;
                 }
             }
-            //Responses for the I'll just watch TikTok difficulty level
+            //Responses for the Impossible difficulty level
             else {
                 if (outside_responses[num_of_friends - 1].type == 'hidden') {
                     win = true;
@@ -555,7 +555,7 @@ main_answer.addEventListener('keyup', (e) => {
                 else {
                     win = false;
                     optional_shot = true;
-                    comments.innerHTML = "Seriously, go watch some TikToks. And take one shot while you're at it";
+                    comments.innerHTML = "Just give up; you can't win this. And take one shot while you're at it";
                 }
             }
         }
